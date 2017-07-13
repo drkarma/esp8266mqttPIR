@@ -27,8 +27,8 @@
 
 // Update these with values suitable for your network.
 
-const char* ssid = privateSSID;
-const char* password = privateWiFiPassword;
+const char* ssid = privateSSID;  //this is defined in ssidParameters.h
+const char* password = privateWiFiPassword; //this is defined in ssidParameters.h
 const char* mqtt_server = "192.168.1.110";
 
 WiFiClient espClient;
